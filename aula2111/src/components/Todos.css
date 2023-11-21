@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  text-justify: auto;
+}
+  
+
+
+
+  button {
+    
+    border-radius: 10px;
+    border-color: rgb(194, 52, 76);
+    background-color: rgb(238, 175, 185);
+  }
+
+  .divFoda {
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        width: 220px;
+        padding: 20px;
+        background-color: rgb(238, 175, 185);
+
+        
+        
+
+  }
+
+  input{
+    border-radius: 10px;
+  }
+  
