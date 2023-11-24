@@ -20,7 +20,7 @@ function Media() {
 
     return(
         <div className='divFoda'>
-            <h1>Calcular a dor da Média </h1>
+            <h1>Calculadora de Média </h1>
             <br/>
             <br/>
             <input type='number' value={numero1} onChange={(e) => setNumero1(e.target.value)} placeholder='Digite a primeira nota'/>

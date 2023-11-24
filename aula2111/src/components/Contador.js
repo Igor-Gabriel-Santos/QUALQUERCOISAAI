@@ -2,20 +2,17 @@ import React, {useState} from 'react'
 
 function Contador() {
 
-    const [soma, setSoma] = useState(null);
+    const [contador, setContador] = useState(0);
 
-    const calcular = () => {
-        const resultado = ;
-        setSoma(resultado)
-    }
-
-    return(
-        <div className='Calculadora'>
-            <button onClick={calcular}> Calcular Soma</button>
-            {soma !== null && <p>Resultado: {soma}</p>}
-        </div>
+   
+  
+    return (
+      <div>
+        <p>Você clicou {contador} vezes</p>
+        <button onClick={() => setContador(contador + 1)}>Clique aqui para adicionar ao contador</button>
+        <button onClick={() => setContador(contador - 1)}>Clique aqui para retirar do contador</button>
+      </div>
     )
-
-}
+  }
 
 export default Contador
